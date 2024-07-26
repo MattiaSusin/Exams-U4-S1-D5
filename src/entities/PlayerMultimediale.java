@@ -4,7 +4,7 @@ public abstract class PlayerMultimediale {
 
     //LISTA ATTRIBUTI
 
-    protected String titolo;
+    public String titolo;
 
 
     //LISTA COSTRUTTORI
@@ -13,7 +13,17 @@ public abstract class PlayerMultimediale {
         this.titolo = titolo;
     }
 
-    //LISTA METODI
+    public PlayerMultimediale(String titoloVid, int durataVid, int volumeVid, int luminositaVid) {
+
+    }
+
+    @Override
+    public String toString() {
+        return "PlayerMultimediale{" +
+                "titolo='" + titolo + '\'' +
+                '}';
+    }
+//LISTA METODI
 
     public abstract void play();
 }

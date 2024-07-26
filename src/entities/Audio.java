@@ -38,11 +38,15 @@ public class Audio extends PlayerMultimediale implements VolumeMetodo {
     }
 
     @Override
-    public void alzaVolume() {
+    public void abbassaVolume() {
+        if (volume > 0) {
+            volume--;
+        }
     }
 
     @Override
-    public void abbassaVolume() {
+    public void alzaVolume() {
+        volume++;
     }
 }
 

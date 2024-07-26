@@ -19,48 +19,35 @@ public class Video extends PlayerMultimediale implements LuminositaMetodo, Volum
         this.luminosita = luminosita;
     }
 
-    public Video(String video1, double durata) {
-        super(video1, durata);
-    }
-
     //LISTA METODI
 
 
     @Override
-    public void play() {
-        String simboliVolume = "!".repeat(volume);
-        String simboliLuminosità = "*".repeat(luminosita);
-
-        for (int i = 0; i < durata; i++) {
-            System.out.println(titolo + simboliVolume + simboliLuminosità);
+    public void abbassaVolume() {
+        if (volume > 0) {
+            volume--;
         }
     }
 
     @Override
-    public String toString() {
-        return "Video{" +
-                "durata=" + durata +
-                ", titolo='" + titolo + '\'' +
-                "} " + super.toString();
+    public void alzaVolume() {
+        volume++;
     }
 
     @Override
     public void aumentaLuminosita() {
-
+        luminosita++;
     }
 
     @Override
     public void diminuisciLuminosita() {
-
+        if (luminosita > 0) {
+            luminosita--;
+        }
     }
 
     @Override
-    public void alzaVolume() {
-
-    }
-
-    @Override
-    public void abbassaVolume() {
+    public void play() {
 
     }
 }
