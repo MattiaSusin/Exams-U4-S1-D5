@@ -43,11 +43,11 @@ public class Main {
                     break;
                 case 0:
                     System.out.println("Richiesta annullata.");
-                    i--; // Non incrementiamo l'indice per ripetere il ciclo
+                    i--;
                     break;
                 default:
                     System.out.println("Scelta non valida, riprova.");
-                    i--; // Non incrementiamo l'indice per ripetere il ciclo
+                    i--;
                     break;
             }
         }

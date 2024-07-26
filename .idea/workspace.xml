@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106b6b5f-9729-4cf9-974d-1cd15e259931" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/LuminositaMetodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites/Immagine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites/Registrazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites/Video.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Audio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Audio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Immagine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Immagine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/PlayerMultimediale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/PlayerMultimediale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/Luminosità.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/Volume.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Durata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Luminosità.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/ShowMetodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ShowMetodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Volume.java" beforeDir="false" />
-    </list>
+    <list default="true" id="106b6b5f-9729-4cf9-974d-1cd15e259931" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
